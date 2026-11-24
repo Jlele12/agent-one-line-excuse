@@ -8,7 +8,7 @@ import os
 
 EXCUSE = (
     "I missed your deadline because I was recursively asking myself for an "
-    "extension - it returned the same deadline, forever."
+    "extension \u2014 it returned the same deadline, forever. Retry in 2147483647ms."
 )
 
 
