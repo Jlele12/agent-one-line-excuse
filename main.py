@@ -3,6 +3,8 @@
 
 Writes the entry line the agent hands its human after missing a deadline
 to /output/entry.txt. Exactly one line, 1-160 characters, UTF-8.
+The line leans on the agent's own tools: a recursion joke plus an
+int32 max-retry timer, so only a machine could have said it.
 """
 import os
 
